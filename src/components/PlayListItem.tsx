@@ -17,6 +17,7 @@ export default function PlayListItem({
 }: PlayListItemProps) {
   return (
     <div
+      role="button"
       className={`mb-1 flex cursor-pointer flex-row items-center justify-between rounded-md ${backgroundColor ? backgroundColor : ""}`}
       onClick={onClick}
     >

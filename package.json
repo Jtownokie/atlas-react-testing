@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test": "npx vitest run"
+    "test": "npx vitest run",
+    "coverage": "npx vitest --coverage"
   },
   "dependencies": {
     "@testing-library/jest-dom": "6.5.0",
@@ -16,8 +17,7 @@
     "jsdom": "25.0.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "react-spinners": "0.14.1",
-    "vitest": "2.0.5"
+    "react-spinners": "0.14.1"
   },
   "devDependencies": {
     "@types/node": "22.5.4",
@@ -26,6 +26,7 @@
     "@typescript-eslint/eslint-plugin": "7.2.0",
     "@typescript-eslint/parser": "7.2.0",
     "@vitejs/plugin-react": "4.3.1",
+    "@vitest/coverage-v8": "2.1.1",
     "autoprefixer": "10.4.20",
     "eslint": "8.57.0",
     "eslint-plugin-react-hooks": "4.6.0",
@@ -36,6 +37,7 @@
     "prettier-plugin-tailwindcss": "0.6.6",
     "tailwindcss": "3.4.10",
     "typescript": "5.5.4",
-    "vite": "5.4.3"
+    "vite": "5.4.3",
+    "vitest": "2.1.1"
   }
 }

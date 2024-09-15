@@ -4,6 +4,7 @@ exports[`Testing for PlayListItem Component > PlayListItem correctly applies bac
 <div>
   <div
     class="mb-1 flex cursor-pointer flex-row items-center justify-between rounded-md bg-blue"
+    role="button"
   >
     <div
       class="flex flex-col"
@@ -32,6 +33,7 @@ exports[`Testing for PlayListItem Component > PlayListItem renders correctly 1`]
 <div>
   <div
     class="mb-1 flex cursor-pointer flex-row items-center justify-between rounded-md bg-light-burgundy"
+    role="button"
   >
     <div
       class="flex flex-col"
@@ -60,6 +62,7 @@ exports[`Testing for PlayListItem Component > PlayListItem renders correctly wit
 <div>
   <div
     class="mb-1 flex cursor-pointer flex-row items-center justify-between rounded-md "
+    role="button"
   >
     <div
       class="flex flex-col"
