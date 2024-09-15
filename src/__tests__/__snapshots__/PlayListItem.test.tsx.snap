@@ -1,0 +1,79 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PlayListItem correctly applies background 1`] = `
+<div>
+  <div
+    class="mb-1 flex cursor-pointer flex-row items-center justify-between rounded-md bg-blue"
+  >
+    <div
+      class="flex flex-col"
+    >
+      <p
+        class="text-sm font-medium text-gold"
+      >
+        Song Title 1
+      </p>
+      <p
+        class="text-sm font-medium text-cyan"
+      >
+        Artist 1
+      </p>
+    </div>
+    <p
+      class="text-sm font-medium text-cyan"
+    >
+      5:45 1
+    </p>
+  </div>
+</div>
+`;
+
+exports[`PlayListItem renders correctly 1`] = `
+<div>
+  <div
+    class="mb-1 flex cursor-pointer flex-row items-center justify-between rounded-md bg-light-burgundy"
+  >
+    <div
+      class="flex flex-col"
+    >
+      <p
+        class="text-sm font-medium text-gold"
+      >
+        Song Title
+      </p>
+      <p
+        class="text-sm font-medium text-cyan"
+      >
+        Artist
+      </p>
+    </div>
+    <p
+      class="text-sm font-medium text-cyan"
+    >
+      5:45
+    </p>
+  </div>
+</div>
+`;
+
+exports[`PlayListItem renders correctly with empty strings 1`] = `
+<div>
+  <div
+    class="mb-1 flex cursor-pointer flex-row items-center justify-between rounded-md "
+  >
+    <div
+      class="flex flex-col"
+    >
+      <p
+        class="text-sm font-medium text-gold"
+      />
+      <p
+        class="text-sm font-medium text-cyan"
+      />
+    </div>
+    <p
+      class="text-sm font-medium text-cyan"
+    />
+  </div>
+</div>
+`;
