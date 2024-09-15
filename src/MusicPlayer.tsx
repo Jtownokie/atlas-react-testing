@@ -9,7 +9,7 @@ import { usePlaylistData } from "./hooks/usePlaylistData";
 import { useShuffleToggle } from "./hooks/useShuffleToggle";
 
 export type AppContextType = {
-  data: [SongObject] | undefined;
+  data: SongObject[] | undefined;
   currentSong: number | undefined;
   handleSongSelect: (id: number) => void;
   shuffle: boolean;

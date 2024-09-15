@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`PlayListItem correctly applies background 1`] = `
+exports[`Testing for PlayListItem Component > PlayListItem correctly applies background 1`] = `
 <div>
   <div
     class="mb-1 flex cursor-pointer flex-row items-center justify-between rounded-md bg-blue"
@@ -28,7 +28,7 @@ exports[`PlayListItem correctly applies background 1`] = `
 </div>
 `;
 
-exports[`PlayListItem renders correctly 1`] = `
+exports[`Testing for PlayListItem Component > PlayListItem renders correctly 1`] = `
 <div>
   <div
     class="mb-1 flex cursor-pointer flex-row items-center justify-between rounded-md bg-light-burgundy"
@@ -56,7 +56,7 @@ exports[`PlayListItem renders correctly 1`] = `
 </div>
 `;
 
-exports[`PlayListItem renders correctly with empty strings 1`] = `
+exports[`Testing for PlayListItem Component > PlayListItem renders correctly with empty strings 1`] = `
 <div>
   <div
     class="mb-1 flex cursor-pointer flex-row items-center justify-between rounded-md "

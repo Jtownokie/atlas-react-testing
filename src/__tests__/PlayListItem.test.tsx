@@ -1,7 +1,6 @@
 import { render } from "@testing-library/react";
-import { expect, test } from "vitest";
+import { expect, test, describe } from "vitest";
 import PlayListItem from "../components/PlayListItem";
-import { describe } from "node:test";
 
 describe("Testing for PlayListItem Component", () => {
   test("PlayListItem renders correctly", () => {
